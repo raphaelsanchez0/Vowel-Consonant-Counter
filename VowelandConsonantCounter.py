@@ -1,5 +1,5 @@
-import PySimpleGUI as sg                        # Part 1 - The import
-
+import PySimpleGUI as sg             
+#Defines theme of window
 sg.theme("BlueMono")
 # Define the window's contents
 layout = [  [sg.Text("Please enter a string")],     
@@ -12,8 +12,8 @@ layout = [  [sg.Text("Please enter a string")],
 # Create the window
 window = sg.Window('Vowel & Consonant Counter', layout)     
 
-# Display and interact with the Window
 
+#defines vowels and consonants
 vowels  = ['A','E','I','O','U']
 vowelsWithwAndy= ['A','E','I','O','U','Y','W']
 consonants = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Z']
