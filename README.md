@@ -1,2 +1,4 @@
 # Vowel-Consonant-Counter
-A simple python script that counts the vowels and consonants in a string
+
+## Subheader
+A simple python script that counts the vowels and consonants in a strings
